@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="sst_logo"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt=""></div>
+            <div class="social"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt=""></div>
+        </div>
+    </header>
+    <div class="feed">
+
+        <div class="input">
+            <div class="thoughts">
+                <h4>Post your thoughts here</h4>
+
+
+                <div class="tweet-container">
+
+                  <div class="tweet">
+                    <img class="person" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="">
+                    <input class="text" placeholder="Type your thoughts here...." type="text">
+                  </div>
+
+                  <hr>
+
+                  <button class="post">Post</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="your_Feed">
+            <h3>Your Feed</h3>
+
+            <div class="Posted">
+                <img class="person1" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="">
+                
+                <div class="post-content">
+                    <div class="user">
+                        <h4>Joanne Graham</h4>
+                        <h6>@joannegraham123</h6>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam pariatur hic libero adipisci incidunt eveniet temporibus reprehenderit fugiat nisi, ad voluptatem error officia excepturi, atque cumque? Consequatur, porro quia.
+                    </p>
+
+                    <div class="icon">
+                    <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619" alt="">
+                    <img class="heart" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679" alt="">
+                    </div>
+                </div>  
+
+            </div>
+        
+    </div>
+</body>
+<script>
+    var text = document.querySelector('.text');
+    var post=document.querySelector('.post');
+    var your_Feed = document.querySelector('.your_Feed');
+
+    post.addEventListener('click',()=>{
+        var text_content = text.textContent;
+        const listItem = document.createElement('li');
+        listItem.className = 'expenseItem';
+        listItem.classList.add(type);
+        your_Feed.classList.add(listitem);
+    })
+
+    let heart=document.querySelector('.heart');
+    heart.addEventListener('click',()=>{
+        heart.src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/025/original/state_clicked.png?1706888455"
+    })
+
+</script>
+</html>

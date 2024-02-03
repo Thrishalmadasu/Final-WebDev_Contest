@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+header{
+    border-bottom: 1px solid gray;
+
+}
+.navbar{
+    padding: 16px;
+    display: flex;
+    max-height: 66px;
+    width: 100vb;
+}
+
+.sst_logo{
+    padding-left: 64px;
+}
+.social{
+    padding-left: 770px;
+}
+
+.feed{
+    width: 100%;
+    height: 100vh;
+    background-color: #ECF8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    padding-bottom: 15px;
+}
+
+.person{
+    height: 45px;
+    width: 45px;
+    padding-right: 15px;
+}
+
+
+.tweet{
+    display: flex;
+    width: 521px;
+    height: 250px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.text{
+    
+    display: flex;
+    height: 248px;
+    width: 521px;
+}
+
+.post{
+    margin-top: 15px;
+    height: 38px;
+    width:112px;
+    border-radius: 50px;
+    background-color: #0041CA;
+    color:white;
+    border: 0px;
+}
+
+.post:hover{
+    background-color: green;
+}
+
+.input{
+    border:2px solid #0041CA;
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ECF8FF ;
+}
+
+.feed{
+    border: 2px solid #0041CA;
+    background-color: white;
+}
+
+.your_Feed{
+    height: 100vh;
+    width: 35%;
+}
+
+.tweet-container{
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+input{
+    all:unset;
+}
+
+h3{
+    padding: 15px;
+}
+
+.Posted{
+    margin: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.person1{
+    height: 30px;
+    width:30px;
+}
+
+.post-content{
+    width:80%;
+}
+
+.user{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    padding-top: 15px;
+}
+
+.heart{
+    padding-left: 21px;
+}
